@@ -8,14 +8,14 @@
     "output"
   ],
   "dependencies": {
-    "purescript-prelude": "^3.1.1",
-    "purescript-console": "^3.0.0",
-    "purescript-systemd-journald": "^0.1.1",
-    "purescript-logging": "^2.0.0",
-    "purescript-generics-rep": "^5.4.0"
+    "purescript-prelude": "^4.0.1",
+    "purescript-console": "^4.0.1",
+    "purescript-systemd-journald": "paluh/purescript-systemd-journald#35d2ca48554064de70e8e6abc13acdf2a5ae3725",
+    "purescript-logging": "adamczykm/purescript-logging#3.0.0",
+    "purescript-generics-rep": "^6.0.0"
   },
   "devDependencies": {
-    "purescript-psci-support": "^3.0.0"
+    "purescript-psci-support": "^4.0.0"
   },
   "repository": {
     "type": "git",

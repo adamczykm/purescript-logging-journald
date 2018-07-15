@@ -6,10 +6,10 @@ A drop of glue between `purescript-logging` and `purescript-systemd-journald`.
 
   ```purescript
     import Control.Logger (log)
-    import Control.Logger.Journald (Level(Debug, Emerg), SYSTEMD, journald, logger)
-    import Control.Monad.Eff (Eff)
+    import Control.Logger.Journald (Level(Debug, Emerg), journald, logger)
+    import Effect (Effect)
 
-    main :: ∀ eff. Eff (systemd ∷ SYSTEMD | eff) Unit
+    main :: Effect Unit
     main = do
       j ← journald {}
       let l = logger j
